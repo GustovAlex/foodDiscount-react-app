@@ -1,0 +1,27 @@
+.navbar {
+    background: #184653;
+    padding: 15px 15px;
+
+    &-content {
+        margin: 0 auto;
+        max-width: 1200px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        box-sizing: border-box;
+
+        &-basket {
+            cursor: pointer;
+
+            &-numberOfProducts {
+                font-size: 24px;
+                font-weight: 600;
+                position: absolute;
+                top: 36px;
+                right: 13px;
+                color: #ff8302;
+            }
+        }
+    }
+}
